@@ -1,0 +1,134 @@
+
+.box {
+    position: relative;
+    border-radius: 10px;
+    //color: #4a4a4a;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 0.7rem;
+    box-shadow: rgb(67 86 101 / 30%) 0 1px 2px 0, rgb(56 89 113 / 15%) 0 2px 6px 2px;
+
+    %before_after {
+        &::before {
+            content:" ";
+            display:table;            
+        }
+        &::after {
+            content:" ";
+            display:table;   
+            clear: both;
+        }
+    }
+
+    $parent: &;
+
+    &.box--list {
+        box-shadow: none;
+        //padding: 10px;
+        margin: 0;
+        margin-bottom: 0.7rem;
+
+        #{$parent}__body {
+            padding: 0;
+            /*
+            &:hover .active:not(:hover)
+                background: unset;
+                color: $text-color;
+            }
+            */
+            &-item {
+                display: flex;
+                align-items: center;
+                padding: 0.7rem {
+                    left: 0.8rem;
+                };
+                color: #8d8d9d;
+
+                &:hover, &.active {
+                    background: linear-gradient(90.08deg, #e1e2e7 0.12%, rgba(237, 242, 245, 0) 99.98%);
+                    border-radius: 20px;
+                    color: #4b4b67;
+                }
+
+            }
+
+        }
+        
+        #{$parent}__body-item + #{$parent}__body-item {
+            margin-top: 5px;
+        }
+    }
+
+    &__header {
+        @extend %before_after;
+        font-size: 1.3rem;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        padding: 0.6rem 1rem;
+        position: relative;
+        border-bottom: 1px solid #e8edf0;
+        min-height: 60px;
+        background-color: #fff;
+        color: #464951;
+        border-radius: 10px 10px 0 0;
+        .action {
+            margin-left: auto;
+        }
+    }
+
+
+    &__body {
+        @extend %before_after;
+        border-radius: 0;
+        padding: 1rem;
+        
+        
+        &.reverse {
+            display: flex;
+            flex-direction: column-reverse
+        }
+
+        &-item {
+            display: flex;
+            padding: {
+                top: 5px;
+                bottom: 5px;
+            };
+            
+            div {
+                overflow: hidden;
+                text-overflow: ellipsis;
+                line-height: 1.4rem;
+            }
+
+            .item {
+                &-icon {
+                    display: inline-block;
+                    width: 16px;
+                    height: 16px;
+                    text-align: center;
+                    margin-right: 8px;
+                    opacity: .9;
+                }
+                &-title {
+                    font-weight: 600;
+                    opacity: .9;
+                }
+                &-text {
+                    white-space: nowrap;
+                    //opacity: .7;
+                }
+            }
+        }
+    }
+
+    &__footer {
+        @extend %before_after;
+        border-radius: 0 0 10px 10px;
+        border-top: 1px solid #f4f4f4;
+        padding: 0.7rem;
+        background-color: #fff;
+    }
+}
+

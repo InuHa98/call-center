@@ -1,0 +1,70 @@
+.badge {
+  position: relative;
+  border: 1px solid currentColor;
+  line-height: 1.125rem;
+  font-size: 0.9rem;
+  letter-spacing: 0.01em;
+  vertical-align: middle;
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+}
+
+.badge i {
+  padding-right: 4px;
+}
+
+.badge.rounded-pill {
+  border-radius: 10rem;
+  padding: 0.1rem 0.5rem;
+}
+
+.badge-sm {
+  padding: 0.3125rem 0.75rem;
+  font-size: 0.75rem;
+}
+
+.badge-sm.rounded-pill {
+  padding: 0.3125rem 0.875rem;
+}
+
+.badge-md {
+  padding: 0.47rem 1rem;
+  font-size: 0.8125rem !important;
+}
+
+.badge-md.rounded-pill {
+  padding: 0.47rem 1rem;
+}
+
+.badge-lg {
+  padding: 0.75rem 1.25rem;
+  font-size: 0.93rem !important;
+}
+
+.badge-lg.rounded-pill {
+  padding: 0.75rem 1.25rem;
+}
+
+.badge-xl {
+  padding: 0.875rem 1.5rem;
+  font-size: 1.125rem !important;
+}
+
+.badge-xl.rounded-pill {
+  padding: 0.875rem 1.5rem;
+}
+
+.badge.bg-light {
+  color: #364a63;
+}
+
+.badge-lighter {
+  color: #526484;
+}
+
+.badge i {
+  font-size: 1rem;
+}
+
+/*# sourceMappingURL=badge.css.map */

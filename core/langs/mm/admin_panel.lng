@@ -1,0 +1,275 @@
+[permissions]
+
+admin_configuration = "System settings"
+admin_mailer_setting = "Mailer Configuration"
+admin_role_edit = "Edit user role"
+admin_role_delete = "Delete user role"
+admin_country_add = "Add Country"
+admin_country_edit = "Edit Country"
+admin_country_delete = "Delete Country"
+admin_area_add = "Add Area"
+admin_area_edit = "Edit Area"
+admin_area_delete = "Delete Area"
+admin_product_add = "Add product"
+admin_product_edit = "Edit product"
+admin_product_delete = "Delete product"
+admin_currency_add = "Add currency"
+admin_currency_edit = "Edit currency"
+admin_currency_delete = "delete currency"
+admin_landing_add = "Add landing"
+admin_landing_edit = "Edit landing"
+admin_landing_delete = "delete landing"
+admin_auto_ban = "Auto member board"
+admin_user_edit = "Edit member information"
+admin_user_ban = "Members banned"
+admin_user_unban = "Unban members"
+admin_team_add = "Add team"
+admin_team_edit = "Edit Teams"
+admin_team_delete = "Delete group"
+admin_team_ban = "Ban group"
+admin_team_unban = "Unban group"
+order_statistics = "View statistics for all orders"
+landing_statistics = "See statistics for all landings"
+payment_team = "Group bill payment"
+order_management = "Order management"
+blacklist = "Blacklist"
+access_advertisers = "Access Advertisers functions"
+access_caller = "Access Caller functions"
+access_shipper = "Access Shipper functions"
+
+[admin_panel]
+
+system_setting = "System settings"
+user_management = "Member management"
+team_management = "Team management"
+system_configuration = "System Configuration"
+system_mailer = "Configuration Mailer"
+system_role = "Position management"
+system_currency = "Currency management"
+system_country = "Country management"
+system_province = "Management of province / city"
+system_district = "District management"
+system_ward = "Ward / commune management"
+system_area = "Area management"
+system_product = "Product Management"
+system_landing_page = "Landing Page"
+system_auto_ban = "Auto ban"
+user_list = "Member list"
+user_ban_list = "Banned members"
+team_list = "Team list"
+team_ban_list = "Banned Teams"
+error_limit_page = "The number of items per page must be greater than 0."
+error_language = "Language does not exist or has been removed."
+
+
+[label]
+
+role_name = "Position"
+level = "Level"
+permission = "Permission"
+price_sell = "Selling price"
+product_image = "Product image"
+
+
+[system_configuration]
+
+app_name = "Page Name"
+app_title = "Page title"
+limit_page = "Paging limit"
+email = "Contact email"
+profile_upload_mode = "Profile photo upload mode"
+limit_login = "Login restriction"
+language = "Default language"
+imgur_api = "Imgur API"
+txt_enable = "Enable"
+txt_disable = "Disable"
+txt_client_id = "Client-ID"
+desc_limit_login = "Limit only one device logged in at a time."
+desc_profile_upload_mode = "Save photos to Localhost or a 3rd server."
+
+
+[system_mailer]
+
+default_mode = "Default mode"
+default_template = "Default Template"
+txt_enable = "Enable"
+txt_disable = "Disable"
+desc_port = "465 with SSL or 587 with TLS."
+desc_authentication = "Use an external SMTP account."
+error_email = "Invalid email."
+
+[system_role]
+
+role_name = "Position name"
+role_level = "Priority level"
+role_color = "Color"
+role_permission = "Permission"
+empty_role = "No positions yet."
+txt_edit = "Edit position"
+txt_delete_role = "Delete position"
+txt_desc_delete_role = "Do you really want to delete this position?"
+desc_level = "The lower the level, the higher the priority."
+error_role_not_found = "Role does not exist or cannot be deleted."
+error_role_name = "Role name cannot be empty."
+error_role_exists = "The position name already exists on the system."
+
+[system_currency]
+
+empty = "No currencies available."
+txt_add = "Add currency"
+txt_edit = "Edit currency"
+txt_delete = "Delete currency"
+txt_desc_delete = "Do you really want to delete this currency?"
+error_name = "Currency name cannot be empty."
+error_name_exists = "Currency name already exists on the system."
+error_not_found = "Currency does not exist or has been removed."
+error_delete = "Cannot be deleted because this currency is linked to another country."
+
+[system_country]
+
+empty = "No countries available."
+txt_add = "Add country"
+txt_edit = "Edit country"
+txt_delete = "Delete country"
+txt_desc_delete = "Do you really want to delete this country?"
+error_name = "Country name cannot be empty."
+error_code = "Country code cannot be empty."
+error_currency = "Please select a currency."
+error_phone_code = "Invalid phone number."
+error_name_exists = "Country name already exists on the system."
+error_not_found = "Country does not exist or has been removed."
+error_delete = "Cannot be deleted because this country is associated with another product."
+
+[system_province]
+
+empty = "No provinces."
+txt_add = "Add province"
+txt_edit = "Edit province"
+txt_delete = "Delete province"
+txt_desc_delete = "Do you really want to delete this province?"
+error_name = "Province name cannot be left blank."
+error_name_exists = "The province name already exists on the system."
+error_not_found = "The province does not exist or has been deleted."
+
+[system_district]
+
+empty = "No districts."
+txt_add = "Add district"
+txt_edit = "Edit district"
+txt_delete = "Delete district"
+txt_desc_delete = "Do you really want to delete this district?"
+error_name = "District name cannot be empty."
+error_name_exists = "The district name already exists on the system."
+error_not_found = "The district does not exist or has been deleted."
+
+[system_ward]
+
+empty = "There are no communes."
+txt_add = "Add commune"
+txt_edit = "Edit commune"
+txt_delete = "Delete commune"
+txt_desc_delete = "Do you really want to delete this commune?"
+error_name = "Communal name cannot be left blank."
+error_name_exists = "The commune name already exists on the system."
+error_not_found = "The commune does not exist or has been deleted."
+
+[system_area]
+
+empty = "No regions available."
+txt_add = "Add region"
+txt_edit = "Edit area"
+txt_delete = "Delete area"
+txt_desc_delete = "Do you really want to delete this area?"
+error_name = "Area name cannot be empty."
+error_country = "Please select a country."
+error_name_exists = "The zone name already exists on the system."
+error_not_found = "The area does not exist or has been deleted."
+error_delete = "Cannot be deleted because this area is linked to another province/city."
+
+[system_product]
+
+empty = "There are no products."
+txt_add = "Add product"
+txt_edit = "Edit product"
+txt_delete = "Delete product"
+txt_desc_delete = "Do you really want to delete this product?"
+error_name = "Product name cannot be empty."
+error_description = "Description cannot be empty."
+error_country = "Please select a country."
+error_name_exists = "The product name already exists in this country."
+error_not_found = "The product does not exist or has been removed."
+
+[system_landing_page]
+
+empty = "There are no Landing Pages."
+txt_add = "Add Landing Page"
+txt_edit = "Edit Landing Page"
+txt_delete = "Delete Landing Page"
+txt_desc_delete = "Do you really want to delete this Landing Page?"
+desc_postback_product = "Product ID."
+desc_postback_landing = "Landing Page ID."
+desc_postback_advertiser = "Advertiser account ID (required)."
+desc_key = "Leave blank to create your own key"
+error_domain = "Invalid domain."
+error_postback = "Postback must contain {param}."
+error_product = "Please select a product."
+error_domain_exists = "The domain name already exists on this property."
+error_not_found = "Landing Page does not exist or has been deleted."
+
+[system_auto_ban]
+order = "Order Check Quantity"
+rpo = "Maximum RPO (%)"
+desc_status = "Automatically ban members (Caller) if APO index is lower than allowed level."
+desc_order = "At least <b>{min}</b> most recent order."
+desc_rpo = "Maximum allowable order rejection rate."
+
+[user_management]
+
+empty = "There are no members."
+set_team = "Add to team"
+change_username = "Change username"
+change_password = "Change password"
+change_email = "Change Email"
+change_permission = "Change permissions"
+ban = "Ban member"
+unban = "Unban member"
+
+new_username = "New Username"
+new_password = "New password"
+confirm_new_password = "Re-enter new password"
+new_email = "New Email Address"
+select_team = "Please select a team"
+reason_ban = "Enter a reason for the ban"
+success_change_username = "Successfully updated account username: <b>{username}</b> => <b>{new_username}</b>"
+success_change_password = "Successfully changed account password: <b>{username}</b>"
+success_change_email = "Successfully changed email account: <b>{username}</b>"
+success_change_permission = "Successfully updating account permissions: <b>{username}</b>"
+success_set_team = "Successfully added a member to the team: <b>{team}</b>"
+success_ban = "Successfully banned account: <b>{username}</b>"
+success_unban = "Successfully unbanned account: <b>{username}</b>"
+
+[team_management]
+empty = "There are no groups."
+change_permission = "Change permissions"
+ban = "Ban group"
+unban = "Unban the group"
+reason_ban = "Enter a reason for the ban"
+txt_add = "Add new group"
+txt_edit = "Edit group"
+
+desc_product = "Product must be country appropriate."
+caller_profit = "Caller profit"
+caller_deduct = "Caller deduction"
+advertiser_profit = "Advertiser profit"
+advertiser_deduct = "Advertiser deduction"
+shipper_profit = "Sender profit"
+shipper_deduct = "Sender Deduct"
+
+error_name = "Group name cannot be empty."
+error_name_exists = "Group name already exists."
+error_country = "Please select a country."
+error_leader_not_found = "The member you want to appoint as team leader was not found."
+
+success_change_permission = "Successful update of team permissions: <b>{team}</b>"
+success_ban = "Successfully banned group: <b>{team}</b>"
+success_unban = "Successfully unbanned group: <b>{team}</b>"

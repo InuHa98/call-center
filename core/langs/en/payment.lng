@@ -1,0 +1,38 @@
+[payment]
+invoice = "Payment invoice"
+empty = "No groups are eligible to receive payments."
+new = "Pay new invoice"
+detail = "Invoice details"
+error_team_not_found = "The team that wants to create a payment invoice was not found."
+error_team_not_leader = "The team has not designated a leader to receive payments."
+error_unpaid = "Please pay the previous invoice to be able to create a new invoice."
+error_invoice_not_found = "The invoice does not exist or has been paid."
+btn_create = "Create invoice"
+btn_pay = "Confirm payment"
+invoiced_to = "Invoiced to"
+pay_to = "Payment to"
+leader_profit = "Leader profit"
+leader_deduct = "Group leader deduction"
+total_pay = "Total payment"
+payment_no = "Invoice No"
+total_paid = "Paid"
+total_wait = "Wait for payment"
+total_earning = "Total income"
+total_deduct = "Total deduction"
+txt_count = "Have all (<strong>{count}</strong>) invoices."
+txt_paid = "Total amount paid."
+txt_wait = "Total amount pending payment."
+txt_earning = "Total amount of successfully delivered orders."
+txt_deduct = "Total returned order deduction."
+empty_invoice = "There are no invoices."
+amount_received = "Amount received"
+total_amount_paid = "Total amount to pay"
+
+
+[label]
+date = "Payment date"
+[button]
+add = "New invoice"
+mark_paid = "Mark paid"
+[success]
+mark_paid = "Mark payment successful."

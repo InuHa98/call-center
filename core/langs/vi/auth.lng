@@ -1,0 +1,96 @@
+[login]
+
+title = "Đăng nhập"
+txt_title = "Đăng nhập"
+txt_username = "Tên tài khoản"
+txt_password = "Mật khẩu"
+txt_stay = "Lưu phiên đăng nhập"
+txt_forgot = "Quên mật khẩu?"
+txt_no_account = "Chưa có tài khoản?"
+txt_signup = "Đăng kí ngay"
+txt_submit = "Tiếp tục"
+error_login = "Tài khoản hoặc mật khẩu không chính xác."
+success_login = "Đăng nhập thành công"
+banned = "Tài khoản của bạn đã bị cấm"
+
+[forgot_password]
+
+title = "Quên mật khẩu"
+txt_title = "Quên mật khẩu"
+txt_email = "Địa chỉ email"
+txt_password = "Mật khẩu mới"
+txt_confirm_password = "Nhập lại mật khẩu"
+txt_submit = "Gửi email khôi phục"
+txt_already_account = "Đã có tài khoản?"
+txt_login_now = "Đăng nhập ngay"
+txt_submit_change_password = "Thay đổi mật khẩu"
+html_note = "<b>Lưu ý:</b> nếu không nhận được Mail gửi về hãy thử kiểm tra mục <b>Spam</b> (<b>Thư rác</b>)."
+error_password = "Mật khẩu cũ không chính xác."
+error_email_empty = "Vui lòng nhập địa chỉ email!"
+error_email_format = "Định dang email không hợp lệ."
+error_email_not_exist = "Email không tồn tại trên hệ thống"
+error_request_not_found = "Yêu cầu lấy lại mật khẩu không tồn tại"
+error_request_expired = "Yêu cầu đã hết hạn"
+error_password_length = "Mật khẩu phải từ {min} đến {max} kí tự."
+error_password_reinput = "Mật khẩu nhập lại không chính xác."
+
+
+success_send_request = "Một tin nhắn chứa liên kết thay đổi mật khẩu của bạn đã được gửi đến địa chỉ: <b>{email}</b>. Liên kết sẽ tự hủy sau {time} phút."
+success_change_password = "Thay đổi mật khẩu thành công"
+
+mail_request_title = "Lấy lại mật khẩu - {title}"
+mail_request_content = "<p>Xin chào <b>{username}</b>!</p><p>Gần đây, bạn đã yêu cầu để thiết lập lại mật khẩu của bạn bởi vì bạn đã quên mật khẩu của mình.</p><p>Yêu cầu sẽ tự hủy sau {expired} phút vào lúc <b>{time}</b>. Vui lòng xác nhận để có thể lấy lại mật khẩu.</p><a target=\"_blank\" href=\"{url}\"><button>Đặt lại mật khẩu</button></a><p>Nếu bạn không yêu cầu này, xin vui lòng bỏ qua nó.<br>Cảm ơn bạn đã tham gia với chúng tôi!</p>"
+mail_request_footer = "<p>Nếu bạn gặp sự cố khi nhấp vào nút \"Đặt lại mật khẩu\", hãy sao chép và dán URL bên dưới vào trình duyệt web của bạn: <a target=\"_blank\" href=\"{url}\">{url}</a></p>"
+
+[profile]
+date_join = "Ngày tham gia"
+limit_login = "Giới hạn đăng nhập"
+setting = "Cài đặt"
+change_username = "Thay đổi tên đăng nhập"
+change_password = "Đổi mật khẩu"
+change_email = "Thay đổi Email"
+devices = "Thiết bị đăng nhập"
+billing = "Thông tin thanh toán"
+infomation = "Thông tin tài khoản"
+statistic = "Thống kê tài khoản"
+send_message = "Gửi tin nhắn"
+new_email = "Mật khẩu mới"
+new_username = "Tên đăng nhập mới"
+new_password = "Mật khẩu mới"
+old_password = "Mật khẩu hiện tại"
+confirm_new_password = "Nhập lại mật khẩu mới"
+
+txt_count_device = "Có <strong>{count}</strong> thiết bị hiện đang đăng nhập"
+logout_all = "Đăng xuất tất cả"
+device = "Thiết bị đăng nhập"
+logout = "Đăng xuất thiết bị"
+empty_device = "Không có thiết bị nào."
+limit_page = "Số hàng trong một trang"
+error_birth = "Ngày sinh không hợp lệ."
+error_facebook = "Facebook liên hệ không hợp lệ."
+
+error_username_empty = "Tên tài khoản không được bỏ trống."
+error_username_type = "Tên tài khoản chứa ký tự không hợp lệ."
+error_username_exist = "Tên tài khoản đã được sử dụng."
+error_username_length = "Tên tài khoản phải từ {min} đến {max} kí tự."
+error_username_char = "Tên tài khoản chứa kí tự không hợp lệ."
+error_password_length = "Mật khẩu phải từ {min} đến {max} kí tự."
+error_password_reinput = "Mật khẩu nhập lại không chính xác."
+error_email_format = "Định dang email không hợp lệ."
+error_email_exist = "Email đã được sử dụng."
+
+[success]
+logout_all = "Đăng xuất tất cả thiết bị thành công."
+logout = "Đăng xuất thiết bị thành công."
+change_password = "Thay đổi mật khẩu thành công."
+
+[error]
+logout_all = "Có lỗi xảy ra. Không thể đăng xuất tất cả thiết bị."
+logout = "Không thể đăng xuất thiết bị này."
+
+[button]
+change_password = "Đổi mật khẩu"
+
+[label]
+username = "Tên tài khoản"
+full_name = "Tên đầy đủ"

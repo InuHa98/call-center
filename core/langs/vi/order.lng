@@ -1,0 +1,86 @@
+[order]
+
+txt_count_conversion = "Có tất cả (<strong>{count}</strong>) chuyển đổi."
+txt_count_landing_page = "Có tất cả (<strong>{count}</strong>) landing page."
+txt_count_order = "Có tất cả (<strong>{count}</strong>) đơn hàng."
+txt_count_order_duplicate = "Có tất cả (<strong>{count}</strong>) đơn hàng có cùng số điện thoại là <strong class="text-danger">{phone}</strong>."
+
+txt_duplicate = "Trùng đơn"
+txt_total_price = "Tổng giá trị"
+txt_order_phone = "Số điện thoại"
+txt_ads_note = "Ghi chú của người quảng cáo"
+txt_call_note = "Ghi chú của người gọi"
+txt_ship_note = "Ghi chú của người giao hàng"
+txt_receive = "Nhận đơn"
+txt_receive_all = "Nhận tất cả đơn"
+txt_receive_select = "Nhận tất cả đơn đã chọn"
+txt_callback = "Gọi lại"
+txt_edit = "Chỉnh sửa đơn hàng"
+txt_calling = "Xác nhận đơn hàng"
+txt_calling_duplicate = "Có <strong>{count}</strong> đơn hàng có cùng số điện thoại. <a target=\"_blank\" href=\"{link}\">Bấm vào đây</a> để xem chi tiết."
+
+detail_order = "Thông tin đơn hàng"
+edit_order = "Chỉnh sửa đơn hàng"
+filter_list_id = "Lọc theo danh sách ID"
+
+desc_receive_select = "Bạn thực sự muốn tiếp nhận tất cả đơn hàng này?"
+
+
+error_product_empty = "Vui lòng chọn một sản phẩm."
+error_quantity_empty = "Số lượng sản phẩm phải lớn hơn 0."
+error_price = "Giá sản phẩm không được nhỏ hơn giá gốc."
+error_first_name = "Tên người mua không được bỏ trống."
+error_phone_empty = "Số điện thoại người mua không được bỏ trống."
+error_phone_blacklist = "Số điện thoại nằm trong danh sách hạn chế."
+error_status = "Trạng thái đơn hàng không hợp lệ."
+error_province = "Tỉnh / thành phố không được bỏ trống."
+error_district = "quận / huyện không được bỏ trống."
+error_ward = "phường / xã không được bỏ trống."
+error_address = "Địa chỉ không được bỏ trống."
+
+
+reason_auto_ban = "Tỉ lệ từ chối đơn hàng quá cao. Vui lòng liên hệ với quản trị viên để được mở khoá."
+
+empty_conversion = "Không có chuyển đổi nào."
+empty_landing_page = "Không có landing page nào."
+empty_order = "Không có đơn hàng nào."
+
+[placeholder]
+enter = "Vui lòng nhập trường này"
+enter_product = "Vui lòng chọn một sản phẩm"
+enter_quantity = "Vui lòng nhập số lượng sản phẩm"
+enter_price = "Vui lòng nhập giá trị đơn hàng"
+enter_first_name = "Vui lòng nhập tên người nhận"
+enter_last_name = "Vui lòng nhập họ người nhận"
+enter_phone = "Vui lòng nhập số điện thoại người nhận"
+enter_address = "Vui lòng nhập địa chỉ người nhận"
+enter_province = "Vui lòng chọn tỉnh / thành phố"
+enter_district = "Vui lòng chọn quận / huyện"
+enter_ward = "Vui lòng chọn phường / xã"
+enter_area = "Không xác định"
+enter_note = "Nhập ghi chú"
+enter_status = "Vui lòng chọn một trạng thái"
+filter_list_id = "Mỗi ID phân cách bởi khoảng trắng hoặc xuống dòng"
+
+[errors]
+receive_multiple_order = "Không thể xác nhận nhiều đơn hàng cùng lúc."
+outstock = "Số lượng sản phẩm dự trữ không đủ. Vui lòng thử lại sau."
+
+[success]
+mark_delivered = "Đánh dấu giao thành công {count} đơn hàng."
+mark_delivering = "Đánh dấu đang giao hàng thành công {count} đơn hàng."
+mark_unreceived = "Đánh dấu không nhận hàng thành công {count} đơn hàng."
+mark_returned = "Đánh dấu hoàn trả thành công {count} đơn hàng."
+mark_received = "Tiếp nhận thành công {count} đơn hàng."
+mark_cancel = "Huỷ tiếp nhận thành công {count} đơn hàng."
+delete = "Xoá thành công {count} đơn hàng."
+
+
+[button]
+return = "Trả lại hàng"
+export_excel = "Xuất ra Excel"
+mark_delivering = "Đánh dấu đang giao hàng"
+mark_unreceived = "Đánh dấu không nhận hàng"
+mark_delivered = "Đánh dấu đã nhận hàng"
+mark_returned = "Đánh dấu trả lại hàng"
+mark_cancel = "Huỷ tiếp nhận đơn hàng"

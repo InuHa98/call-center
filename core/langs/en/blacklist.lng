@@ -1,0 +1,11 @@
+[blacklist]
+empty = "No phone numbers are restricted."
+
+txt_count = "Have all (<strong>{count}</strong>) restricted phone numbers."
+txt_list = "Restricted phone number list"
+txt_add = "Add Restrictions"
+txt_edit = "Limited editing"
+
+error_phone = "Phone number cannot be blank."
+
+error_not_found = "The phone number does not exist or has been deleted."

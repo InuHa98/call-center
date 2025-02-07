@@ -1,0 +1,40 @@
+/* Error: Undefined mixin.
+ *     ,
+ * 189 | /     @include responsive-max(992px) {
+ * 190 | |         & {
+ * 191 | |             display: block;
+ * 192 | |             flex-direction: column;
+ * 193 | |             //min-width: auto;
+ * 194 | |         }
+ * 195 | |         .control-label, .control-label--mini {
+ * 196 | |             display: block;
+ * 197 | |             flex: 0;
+ * 198 | |             text-align: left;
+ * 199 | |             margin-bottom: 10px;
+ * 200 | |         }
+ * 201 | | 
+ * 202 | |         &.limit--width  {
+ * 203 | |             input, select, textarea {
+ * 204 | |                 max-width: 100%;
+ * 205 | |                 margin-top: 10px;
+ * 206 | |             }
+ * 207 | |             button, input[type="submit"], .btn {
+ * 208 | |                 margin: 0 {
+ * 209 | |                     top: 10px;
+ * 210 | |                 };
+ * 211 | |             }
+ * 212 | |         }
+ * 213 | \     }
+ *     '
+ *   app\form.scss 189:5  root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: Undefined mixin.\a     \2577 \a 189 \2502  \250c      @include responsive-max(992px) {\a 190 \2502  \2502          & {\a 191 \2502  \2502              display: block;\a 192 \2502  \2502              flex-direction: column;\a 193 \2502  \2502              //min-width: auto;\a 194 \2502  \2502          }\a 195 \2502  \2502          .control-label, .control-label--mini {\a 196 \2502  \2502              display: block;\a 197 \2502  \2502              flex: 0;\a 198 \2502  \2502              text-align: left;\a 199 \2502  \2502              margin-bottom: 10px;\a 200 \2502  \2502          }\a 201 \2502  \2502  \a 202 \2502  \2502          &.limit--width  {\a 203 \2502  \2502              input, select, textarea {\a 204 \2502  \2502                  max-width: 100%;\a 205 \2502  \2502                  margin-top: 10px;\a 206 \2502  \2502              }\a 207 \2502  \2502              button, input[type="submit"], .btn {\a 208 \2502  \2502                  margin: 0 {\a 209 \2502  \2502                      top: 10px;\a 210 \2502  \2502                  };\a 211 \2502  \2502              }\a 212 \2502  \2502          }\a 213 \2502  \2514      }\a     \2575 \a   app\\form.scss 189:5  root stylesheet';
+}

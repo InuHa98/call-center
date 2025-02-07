@@ -1,0 +1,35 @@
+{
+    "APP_NAME": "CallCenter",
+    "APP_TITLE": "Callcenter Manager",
+    "APP_DESCRIPTION": "",
+    "PROFILE_UPLOAD_MODE": "localhost",
+    "APP_LIMIT_LOGIN": true,
+    "DEFAULT_THEME": "ttmanga",
+    "APP_EMAIL": "ad.ttmanga@gmail.com",
+    "DEFAULT_LANGUAGE": "vi",
+    "APP_LIMIT_ITEM_PAGE": 3,
+    "IMGUR_CLIENT_ID": [
+        "d16504ce056926a",
+        "d34fef3f350337a"
+    ],
+    "MAILER_MODE": "API",
+    "MAILER_NAME": "TTmanga",
+    "MAILER_FROM": "ad.ttmanga@gmail.com",
+    "MAILER_TEMPLATE": "mail_default.html",
+    "MAILER_SMTP": {
+        "authentication": true,
+        "host": "smtp.gmail.com",
+        "secure": "ssl",
+        "port": "465",
+        "username": "ad.ttmanga@gmail.com",
+        "password": "zokylzxmbvwdtizr"
+    },
+    "MAILER_API": {
+        "server": "mailjet",
+        "key": "0c135fda2af512d366ef2fa433d988a0",
+        "secret": "6df740d788174185e77f822c5fc86038"
+    },
+    "AUTO_BAN": 1,
+    "AUTO_BAN_ORDER_CHECK": 2,
+    "AUTO_BAN_RPO": 30
+}

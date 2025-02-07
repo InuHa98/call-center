@@ -1,0 +1,44 @@
+@use 'sass:selector';
+
+@use 'variables' as *;
+@use 'mixins' as *;
+
+.section-sub-header .box {
+    border-radius: 0 0 10px 10px;
+    background-color: rgb(34 34 34 / 56%);
+    color: #a4aeb3;
+}
+.team-earning {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    &__item {
+        padding: 0 {
+            bottom: 10px;
+            right: 20px;
+        };
+        .label {
+            opacity: .6;
+        }
+        .text {
+            white-space: nowrap;
+            margin-top: 5px;
+            span {
+                font-weight: 700;
+                font-size: 1.2rem;
+                padding: 4px 10px;
+            }
+        
+        }
+    }
+}
+.box__body-item  {
+    .desc-text {
+        white-space: normal;
+        word-break: break-word;
+        font-size: 0.9rem;
+    }
+}

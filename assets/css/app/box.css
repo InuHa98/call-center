@@ -1,0 +1,103 @@
+.box {
+  position: relative;
+  border-radius: 10px;
+  width: 100%;
+  background-color: #fff;
+  margin-bottom: 0.7rem;
+  box-shadow: rgba(67, 86, 101, 0.3) 0 1px 2px 0, rgba(56, 89, 113, 0.15) 0 2px 6px 2px;
+}
+.box .box__footer::before, .box .box__body::before, .box .box__header::before {
+  content: " ";
+  display: table;
+}
+.box .box__footer::after, .box .box__body::after, .box .box__header::after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+.box.box--list {
+  box-shadow: none;
+  margin: 0;
+  margin-bottom: 0.7rem;
+}
+.box.box--list .box__body {
+  padding: 0;
+  /*
+  &:hover .active:not(:hover)
+      background: unset;
+      color: $text-color;
+  }
+  */
+}
+.box.box--list .box__body-item {
+  display: flex;
+  align-items: center;
+  padding: 0.7rem;
+  padding-left: 0.8rem;
+  color: #8d8d9d;
+}
+.box.box--list .box__body-item:hover, .box.box--list .box__body-item.active {
+  background: linear-gradient(90.08deg, #e1e2e7 0.12%, rgba(237, 242, 245, 0) 99.98%);
+  border-radius: 20px;
+  color: #4b4b67;
+}
+.box.box--list .box__body-item + .box__body-item {
+  margin-top: 5px;
+}
+.box__header {
+  font-size: 1.3rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  padding: 0.6rem 1rem;
+  position: relative;
+  border-bottom: 1px solid #e8edf0;
+  min-height: 60px;
+  background-color: #fff;
+  color: #464951;
+  border-radius: 10px 10px 0 0;
+}
+.box__header .action {
+  margin-left: auto;
+}
+.box__body {
+  border-radius: 0;
+  padding: 1rem;
+}
+.box__body.reverse {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.box__body-item {
+  display: flex;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.box__body-item div {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.4rem;
+}
+.box__body-item .item-icon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  text-align: center;
+  margin-right: 8px;
+  opacity: 0.9;
+}
+.box__body-item .item-title {
+  font-weight: 600;
+  opacity: 0.9;
+}
+.box__body-item .item-text {
+  white-space: nowrap;
+}
+.box__footer {
+  border-radius: 0 0 10px 10px;
+  border-top: 1px solid #f4f4f4;
+  padding: 0.7rem;
+  background-color: #fff;
+}
+
+/*# sourceMappingURL=box.css.map */

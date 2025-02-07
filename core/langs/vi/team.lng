@@ -1,0 +1,31 @@
+[team]
+txt_add = "Thêm thành viên mới"
+txt_edit = "Chỉnh sửa thành viên"
+error_member_not_found = "Thành viên không tồn tại hoặc đã bị xoá."
+error_delete_leader = "Không thể xoá trưởng nhóm."
+error_payment_exists = "Vui lòng thanh toán hết số tiền tồn động của thành viên trước đó."
+txt_member = "Danh sách thành viên nhóm"
+txt_limit = "Không vượt quá"
+dashboard = "Tổng quát"
+statistic = "Thống kê"
+order = "Đơn hàng"
+member = "Thành viên"
+payment = "Thanh toán"
+
+profit_call = "Lợi nhuận người gọi"
+profit_ads = "Lợi nhuận quảng cáo"
+profit_ship = "Lợi nhuận giao hàng"
+
+
+desc_profit = "Với mỗi đơn hàng được giao thành công."
+desc_deduct = "Với mỗi đơn hàng giao thành công nhưng sau đó bị trả lại (Chỉ áp dụng nếu đơn hàng đã được thanh toán trước đó)."
+desc_payment = "Vui lòng thanh toán hết cho thành viên nhóm nếu không sẽ không thể nhận thanh toán trong lần kế tiếp."
+[success]
+delete_member = "Xoá thành công thành viên khỏi nhóm."
+ban = "Cấm thành công thành viên: <b>{username}</b>"
+unban = "Bỏ cấm thành công thành viên: <b>{username}</b>"
+
+[button]
+delete = "Xoá thành viên khỏi nhóm"
+ban = "Cấm thành viên"
+unban = "Bỏ cấm thành viên"

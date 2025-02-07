@@ -1,0 +1,275 @@
+[permissions]
+
+admin_configuration = "Cài đặt hệ thống"
+admin_mailer_setting = "Cấu hình Mailer"
+admin_role_edit = "Chỉnh sửa vai trò người dùng"
+admin_role_delete = "Xoá vai trò người dùng"
+admin_country_add = "Thêm Country"
+admin_country_edit = "Sửa Country"
+admin_country_delete = "Xoá Country"
+admin_area_add = "Thêm Area"
+admin_area_edit = "Sửa Area"
+admin_area_delete = "Xoá Area"
+admin_product_add = "Thêm sản phẩm"
+admin_product_edit = "Sửa sản phẩm"
+admin_product_delete = "Xoá sản phẩm"
+admin_currency_add = "Thêm tiền tệ"
+admin_currency_edit = "Sửa tiền tệ"
+admin_currency_delete = "xoá tiền tệ"
+admin_landing_add = "Thêm landing"
+admin_landing_edit = "Sửa landing"
+admin_landing_delete = "xoá landing"
+admin_auto_ban = "Auto ban thành viên"
+admin_user_edit = "Chỉnh sửa thông tin thành viên"
+admin_user_ban = "Cấm thành viên"
+admin_user_unban = "Bỏ cấm thành viên"
+admin_team_add = "Thêm nhóm"
+admin_team_edit = "Chỉnh sửa nhóm"
+admin_team_delete = "Xoá nhóm"
+admin_team_ban = "Cấm nhóm"
+admin_team_unban = "Bỏ cấm nhóm"
+order_statistics = "Xem thống kê tất cả đơn hàng"
+landing_statistics = "Xem thống kê tất cả landing"
+payment_team = "Thanh toán hoá đơn nhóm"
+order_management = "Quản lí đơn hàng"
+blacklist = "Danh sách đen"
+access_advertisers = "Truy cập các chức năng của Advertisers"
+access_caller = "Truy cập các chức năng của Caller"
+access_shipper = "Truy cập các chức năng của Shipper"
+
+[admin_panel]
+
+system_setting = "Cài đặt hệ thống"
+user_management = "Quản lí thành viên"
+team_management = "Quản lí nhóm"
+system_configuration = "Cấu hình hệ thống"
+system_mailer = "Cấu hình Mailer"
+system_role = "Quản lí chức vụ"
+system_currency = "Quản lí tiền tệ"
+system_country = "Quản lí quốc gia"
+system_province = "Quản lí tỉnh / thành phố"
+system_district = "Quản lí quận / huyện"
+system_ward = "Quản lí phường / xã"
+system_area = "Quản lí khu vực"
+system_product = "Quản lí sản phẩm"
+system_landing_page = "Landing Page"
+system_auto_ban = "Tự động cấm"
+user_list = "Danh sách thành viên"
+user_ban_list = "Thành viên bị cấm"
+team_list = "Danh sách nhóm"
+team_ban_list = "Nhóm bị cấm"
+error_limit_page = "Số lượng item một trang phải lớn hơn 0."
+error_language = "Ngôn ngữ không tồn tại hoặc đã bị xoá."
+
+
+[label]
+
+role_name = "Chức vụ"
+level = "Cấp độ"
+permission = "Quyền hạn"
+price_sell = "Giá bán"
+product_image = "Ảnh sản phẩm"
+
+
+[system_configuration]
+
+app_name = "Tên trang"
+app_title = "Tiêu đề trang"
+limit_page = "Giới hạn phân trang"
+email = "Email liên hệ"
+profile_upload_mode = "Chế độ tải ảnh lên Profile"
+limit_login = "Hạn chế đăng nhập"
+language = "Ngôn ngữ mặc định"
+imgur_api = "Imgur API"
+txt_enable = "Bật"
+txt_disable = "Tắt"
+txt_client_id = "Client-ID"
+desc_limit_login = "Giới hạn chỉ một thiết bị đăng nhập cùng lúc."
+desc_profile_upload_mode = "Lưu ảnh vào Localhost hoặc server thứ 3."
+
+
+[system_mailer]
+
+default_mode = "Chế độ mặc định"
+default_template = "Template mặc định"
+txt_enable = "Bật"
+txt_disable = "Tắt"
+desc_port = "465 với SSL hoặc 587 với TLS."
+desc_authentication = "Sử dụng tài khoản SMTP bên ngoài."
+error_email = "Email không hợp lệ."
+
+[system_role]
+
+role_name = "Tên chức vụ"
+role_level = "Cấp độ ưu tiên"
+role_color = "Màu sắc"
+role_permission = "Quyền hạn"
+empty_role = "Chưa có chức vụ nào."
+txt_edit = "Chỉnh sửa chức vụ"
+txt_delete_role = "Xoá bỏ chức vụ"
+txt_desc_delete_role = "Bạn thực sự muốn xoá bỏ chức vụ này?"
+desc_level = "Cấp độ càng thấp ưu tiên càng cao."
+error_role_not_found = "Role không tồn tại hoặc không thể xoá."
+error_role_name = "Tên chức vụ không được bỏ trống."
+error_role_exists = "Tên chức vụ đã tồn tại trên hệ thống."
+
+[system_currency]
+
+empty = "Không có đơn vị tiền tệ nào."
+txt_add = "Thêm tiền tệ"
+txt_edit = "Chỉnh sửa tiền tệ"
+txt_delete = "Xoá bỏ tiền tệ"
+txt_desc_delete = "Bạn thực sự muốn xoá bỏ đơn vị tiền tệ này?"
+error_name = "Tên đơn vị tiền tệ không được bỏ trống."
+error_name_exists = "Tên đơn vị tiền tệ đã tồn tại trên hệ thống."
+error_not_found = "Đơn vị tiền không tồn tại hoặc đã bị xoá."
+error_delete = "Không thể xoá do đơn vị tiền tệ này đang được liên kết với một quốc gia khác."
+
+[system_country]
+
+empty = "Không có quốc gia nào."
+txt_add = "Thêm quốc gia"
+txt_edit = "Chỉnh sửa quốc gia"
+txt_delete = "Xoá bỏ quốc gia"
+txt_desc_delete = "Bạn thực sự muốn xoá bỏ quốc gia này?"
+error_name = "Tên quốc gia không được bỏ trống."
+error_code = "Mã quốc gia không được bỏ trống."
+error_currency = "Vui lòng chọn một đơn vị tiền tệ."
+error_phone_code = "Đầu số điện thoại không hợp lệ."
+error_name_exists = "Tên quốc gia đã tồn tại trên hệ thống."
+error_not_found = "Quốc gia không tồn tại hoặc đã bị xoá."
+error_delete = "Không thể xoá do quốc gia này đang được liên kết với một sản phẩm khác."
+
+[system_province]
+
+empty = "Không có tỉnh thành nào."
+txt_add = "Thêm tỉnh thành"
+txt_edit = "Chỉnh sửa tỉnh thành"
+txt_delete = "Xoá bỏ tỉnh thành"
+txt_desc_delete = "Bạn thực sự muốn xoá bỏ tỉnh thành này?"
+error_name = "Tên tỉnh thành không được bỏ trống."
+error_name_exists = "Tên tỉnh thành đã tồn tại trên hệ thống."
+error_not_found = "Tỉnh thành không tồn tại hoặc đã bị xoá."
+
+[system_district]
+
+empty = "Không có huyện nào."
+txt_add = "Thêm huyện"
+txt_edit = "Chỉnh sửa huyện"
+txt_delete = "Xoá bỏ huyện"
+txt_desc_delete = "Bạn thực sự muốn xoá bỏ huyện này?"
+error_name = "Tên huyện không được bỏ trống."
+error_name_exists = "Tên huyện đã tồn tại trên hệ thống."
+error_not_found = "Huyện không tồn tại hoặc đã bị xoá."
+
+[system_ward]
+
+empty = "Không có xã nào."
+txt_add = "Thêm xã"
+txt_edit = "Chỉnh sửa xã"
+txt_delete = "Xoá bỏ xã"
+txt_desc_delete = "Bạn thực sự muốn xoá bỏ xã này?"
+error_name = "Tên xã không được bỏ trống."
+error_name_exists = "Tên xã đã tồn tại trên hệ thống."
+error_not_found = "Xã không tồn tại hoặc đã bị xoá."
+
+[system_area]
+
+empty = "Không có khu vực nào."
+txt_add = "Thêm khu vực"
+txt_edit = "Chỉnh sửa khu vực"
+txt_delete = "Xoá bỏ khu vực"
+txt_desc_delete = "Bạn thực sự muốn xoá bỏ khu vực này?"
+error_name = "Tên khu vực không được bỏ trống."
+error_country = "Vui lòng chọn một quốc gia."
+error_name_exists = "Tên khu vực đã tồn tại trên hệ thống."
+error_not_found = "Khu vực không tồn tại hoặc đã bị xoá."
+error_delete = "Không thể xoá do khu vực này đang được liên kết với một tỉnh/ thành phố khác."
+
+[system_product]
+
+empty = "Không có sản phẩm nào."
+txt_add = "Thêm sản phẩm"
+txt_edit = "Chỉnh sửa sản phẩm"
+txt_delete = "Xoá bỏ sản phẩm"
+txt_desc_delete = "Bạn thực sự muốn xoá bỏ sản phẩm này?"
+error_name = "Tên sản phẩm không được bỏ trống."
+error_description = "Mô tả không được bỏ trống."
+error_country = "Vui lòng chọn một quốc gia."
+error_name_exists = "Tên sản phẩm đã tồn tại trên quốc gia này."
+error_not_found = "Sản phẩm không tồn tại hoặc đã bị xoá."
+
+[system_landing_page]
+
+empty = "Không có Landing Page nào."
+txt_add = "Thêm Landing Page"
+txt_edit = "Chỉnh sửa Landing Page"
+txt_delete = "Xoá bỏ Landing Page"
+txt_desc_delete = "Bạn thực sự muốn xoá bỏ Landing Page này?"
+desc_postback_product = "ID sản phẩm."
+desc_postback_landing = "ID Landing Page."
+desc_postback_advertiser = "ID tài khoản advertiser (bắt buộc)."
+desc_key = "Bỏ trống để tự tạo khoá"
+error_domain = "Domain không hợp lệ."
+error_postback = "Postback bắt buộc phải có {param}."
+error_product = "Vui lòng chọn một sản phẩm."
+error_domain_exists = "Tên miền đã tồn tại trên sản phẩm này."
+error_not_found = "Landing Page không tồn tại hoặc đã bị xoá."
+
+[system_auto_ban]
+order = "Số lượng Order Check"
+rpo = "RPO tối đa (%)"
+desc_status = "Tự động cấm thành viên (Caller) nếu chỉ số APO thấp hơn mức cho phép."
+desc_order = "Tối thiểu <b>{min}</b> đơn hàng gần nhất."
+desc_rpo = "Tỉ lệ từ chối đơn hàng tối đa cho phép."
+
+[user_management]
+
+empty = "Không có thành viên nào."
+set_team = "Thêm vào nhóm"
+change_username = "Thay đổi tên đăng nhập"
+change_password = "Thay đổi mật khẩu"
+change_email = "Thay đổi Email"
+change_permission = "Thay đổi quyền hạn"
+ban = "Cấm thành viên"
+unban = "Bỏ cấm thành viên"
+
+new_username = "Tên đăng nhập mới"
+new_password = "Mật khẩu mới"
+confirm_new_password = "Nhập lại mật khẩu mới"
+new_email = "Địa chỉ Email mới"
+select_team = "Vui lòng chọn một nhóm"
+reason_ban = "Nhập lý do cấm"
+success_change_username = "Cập nhật tên người dùng thành công tài khoản: <b>{username}</b> => <b>{new_username}</b>"
+success_change_password = "Thay đổi mật khẩu thành công tài khoản: <b>{username}</b>"
+success_change_email = "Thay đổi Email thành công tài khoản: <b>{username}</b>"
+success_change_permission = "Cập nhật quyền hạn thành công tài khoản: <b>{username}</b>"
+success_set_team = "Thêm thành công thành viên vào nhóm: <b>{team}</b>"
+success_ban = "Cấm thành công tài khoản: <b>{username}</b>"
+success_unban = "Bỏ cấm thành công tài khoản: <b>{username}</b>"
+
+[team_management]
+empty = "Không có nhóm nào."
+change_permission = "Thay đổi quyền hạn"
+ban = "Cấm nhóm"
+unban = "Bỏ cấm nhóm"
+reason_ban = "Nhập lý do cấm"
+txt_add = "Thêm nhóm mới"
+txt_edit = "Chỉnh sửa nhóm"
+
+desc_product = "Sản phẩm phải phù hợp với quốc gia."
+caller_profit = "Lợi nhuận người gọi"
+caller_deduct = "Khấu trừ người gọi"
+advertiser_profit = "Lợi nhuận người quảng cáo"
+advertiser_deduct = "Khấu trừ người quảng cáo"
+shipper_profit = "Lợi nhuận người gửi"
+shipper_deduct = "Khấu trừ người gửi"
+
+error_name = "Tên nhóm không được bỏ trống."
+error_name_exists = "Tên nhóm đã tồn tại."
+error_country = "Vui lòng chọn một quốc gia."
+error_leader_not_found = "Không tìm thấy thành viên muốn chỉ định làm trưởng nhóm."
+
+success_change_permission = "Cập nhật quyền hạn thành công nhóm: <b>{team}</b>"
+success_ban = "Cấm thành công nhóm: <b>{team}</b>"
+success_unban = "Bỏ cấm thành công nhóm: <b>{team}</b>"

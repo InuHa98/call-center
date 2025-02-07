@@ -1,0 +1,31 @@
+[team]
+txt_add = "Add member"
+txt_edit = "Edit members"
+error_member_not_found = "Member does not exist or has been deleted."
+error_delete_leader = "Unable to delete group leader."
+error_payment_exists = "Please pay off the previous member\'s outstanding balance."
+txt_member = "List of members"
+txt_limit = "Do not exceed"
+dashboard = "Dashboard"
+statistic = "Statistics"
+order = "Order"
+member = "Member"
+payment = "Payment"
+
+profit_call = "Caller profit"
+profit_ads = "Advertising profit"
+profit_ship = "Delivery profit"
+
+
+desc_profit = "For each successfully delivered order."
+desc_deduct = "For each order successfully delivered but then returned (Only applicable if the order has been paid before)."
+desc_payment = "Please pay the group member in full or you will not be able to receive payment next time."
+[success]
+delete_member = "Successfully deleted member from group."
+ban = "Successfully banned member: <b>{username}</b>"
+unban = "Successfully unbanned member: <b>{username}</b>"
+
+[button]
+delete = "Remove member from team"
+ban = "Ban member"
+unban = "Unban member"

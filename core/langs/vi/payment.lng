@@ -1,0 +1,38 @@
+[payment]
+invoice = "Hoá đơn thanh toán"
+empty = "Không có nhóm nào đủ điều kiện nhận thanh toán."
+new = "Thanh toán hoá đơn mới"
+detail = "Chi tiết hoá đơn"
+error_team_not_found = "Không tìm thấy team muốn tạo hoá đơn thanh toán."
+error_team_not_leader = "Nhóm chưa chỉ định leader để nhận thanh toán."
+error_unpaid = "Vui lòng thanh toán hoá đơn trước đó để có thể tạo hoá đơn mới."
+error_invoice_not_found = "Hoá đơn không tồn tại hoặc đã được thanh toán."
+btn_create = "Tạo hoá đơn"
+btn_pay = "Xác nhận thanh toán"
+invoiced_to = "Hoá đơn của"
+pay_to = "Người nhận"
+leader_profit = "Lợi nhuận trưởng nhóm"
+leader_deduct = "Khấu trừ trưởng nhóm"
+total_pay = "Tổng tiền thanh toán"
+payment_no = "Hoá đơn số"
+total_paid = "Đã thanh toán"
+total_wait = "Chờ thanh toán"
+total_earning = "Tổng thu nhập"
+total_deduct = "Tổng khấu trừ"
+txt_count = "Có tất cả (<strong>{count}</strong>) hoá đơn."
+txt_paid = "Tổng tiền đã thanh toán."
+txt_wait = "Tổng tiền đang chờ thanh toán."
+txt_earning = "Tổng tiền nhận được đơn hàng giao thành công."
+txt_deduct = "Tổng tiền khấu trừ đơn hàng bị trả lại."
+empty_invoice = "Không có hoá đơn nào."
+amount_received = "Số tiền đã nhận"
+total_amount_paid = "Tổng tiền cần thanh toán"
+
+
+[label]
+date = "Ngày thanh toán"
+[button]
+add = "Hoá đơn mới"
+mark_paid = "Đánh dấu đã thanh toán"
+[success]
+mark_paid = "Đánh dấu thanh toán thành công."

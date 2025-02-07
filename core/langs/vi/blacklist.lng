@@ -1,0 +1,11 @@
+[blacklist]
+empty = "Không có số điện thoại nào bị hạn chế."
+
+txt_count = "Có tất cả (<strong>{count}</strong>) số điện thoại bị hạn chế."
+txt_list = "Danh sách số điện thoại bị hạn chế"
+txt_add = "Thêm hạn chế"
+txt_edit = "Chỉnh sửa hạn chế"
+
+error_phone = "Số điện thoại không được bỏ trống."
+
+error_not_found = "Số điện thoại không tồn tại hoặc đã bị xoá."

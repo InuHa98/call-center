@@ -1,0 +1,85 @@
+[order]
+
+txt_count_conversion = "Has all (<strong>{count}</strong>) conversions."
+txt_count_landing_page = "Contains all (<strong>{count}</strong>) landing pages."
+txt_count_order = "There are all (<strong>{count}</strong>) orders."
+txt_count_order_duplicate = "Having all (<strong>{count}</strong>) orders with the same phone number is <strong class="text-danger">{phone}</strong>."
+
+txt_duplicate = "Duplicate"
+txt_total_price = "Total value"
+txt_order_phone = "Phone number"
+txt_ads_note = "Advertiser\'s note"
+txt_call_note = "Caller\'s note"
+txt_ship_note = "Shipper\'s note"
+txt_receive = "Receive application"
+txt_receive_all = "Receive all orders"
+txt_receive_select = "Receive all selected orders"
+txt_callback = "Callback"
+txt_edit = "Edit order"
+txt_calling = "Order confirmation"
+txt_calling_duplicate = "There are <strong>{count}</strong> orders with the same phone number. <a target=\"_blank\" href=\"{link}\">Click here</a> to view detail."
+
+detail_order = "Order information"
+edit_order = "Edit order"
+filter_list_id = "Filter by list ID"
+
+desc_receive_select = "Do you really want to receive all of these orders?"
+
+error_product_empty = "Please select a product."
+error_quantity_empty = "Product count must be greater than 0."
+error_price = "Product price cannot be less than original price."
+error_first_name = "Buyer name cannot be empty."
+error_phone_empty = "Buyer phone number cannot be empty."
+error_phone_blacklist = "The phone number is on the restricted list."
+error_status = "Invalid order status."
+error_province = "Province/city cannot be left blank."
+error_district = "district/district cannot be left blank."
+error_ward = "ward/commune cannot be left blank."
+error_address = "Address cannot be empty."
+
+
+reason_auto_ban = "Order rejection rate is too high. Please contact admin to get it unlocked."
+
+empty_conversion = "No conversions."
+empty_landing_page = "There are no landing pages."
+empty_order = "No orders yet."
+
+[placeholder]
+enter = "Please enter this field"
+enter_product = "Please select a product"
+enter_quantity = "Please enter product quantity"
+enter_price = "Please enter order value"
+enter_first_name = "Please enter the recipient\'s name"
+enter_last_name = "Please enter recipient\'s last name"
+enter_phone = "Please enter recipient phone number"
+enter_address = "Please enter recipient address"
+enter_province = "Please select province/city"
+enter_district = "Please select a district"
+enter_ward = "Please select ward / commune"
+enter_area = "Unknown"
+enter_note = "Enter notes"
+enter_status = "Please select a status"
+filter_list_id = "Each ID is separated by a space or newline"
+
+[errors]
+receive_multiple_order = "Unable to confirm multiple orders at once."
+outstock = "There are not enough products in stock. Please try again later."
+
+[success]
+mark_delivered = "Mark successfully delivered {count} orders."
+mark_delivering = "Marks successfully shipping {count} orders."
+mark_unreceived = "Mark {count} orders as not received successfully."
+mark_returned = "Mark successfully returned {count} orders."
+mark_received = "Successfully received {count} orders."
+mark_cancel = "Successfully canceled receipt of {count} orders."
+delete = "Successfully deleted {count} orders."
+
+
+[button]
+return = "Return item"
+export_excel = "Export to Excel"
+mark_delivering = "Mark delivering"
+mark_unreceived = "Mark as not received"
+mark_delivered = "Mark delivered"
+mark_returned = "Mark as returned"
+mark_cancel = "Cancel order receipt"
